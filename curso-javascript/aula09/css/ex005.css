@@ -1,0 +1,73 @@
+*
+{
+    font-family: monospace;
+    color: white;
+    font-weight: 600;
+    
+}
+
+body
+{
+    margin-top: 100px;
+}
+
+#card
+{
+    margin-top: 10px;
+    background-color: rgb(230, 90, 176);
+    padding: 50px;
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 10px 10px black;
+    text-shadow: 2px;
+    color: #000;
+
+}
+   
+
+h1{
+    font-size: 40px;
+    margin-bottom: 50px;
+    
+}
+
+.card-content
+{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    
+   
+}
+
+.operacao
+{
+    width: 50px;
+    height: 25px;
+    color: black;
+    border: none;
+}
+
+#res
+{
+    margin-top: 50px;
+    font-size: 18px;
+  
+}
+
+#somar 
+{
+    background: rgb(158, 3, 158);
+    border: none;
+    padding: 6px
+
+}
+
+#somar:hover
+{
+    opacity: 80%;
+}
+
