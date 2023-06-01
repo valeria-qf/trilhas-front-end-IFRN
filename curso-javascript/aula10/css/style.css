@@ -14,14 +14,15 @@ body {
 
 #card {
     background-color: #222222;
-    width: 450px;
-    height: 456px;
+    width: 400px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.427);
     color: #FFFFFF;
+    border-radius: 15px;
 }
 
 #card h1 {
@@ -36,31 +37,36 @@ body {
 }
 
 #country {
-    width: 150px;
-    height: 30px;
+    width: 270px;
+    height: 35px;
     border: none;
+    border-radius: 10px;
     background-color: #303030;
     margin-left: 20px;
     margin-bottom: 20px;
     outline: none;
     color: #FFFFFF;
+   text-align: center;
+   
 }
 
 #pais {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-content: center;
+    align-items: center;
     justify-content: center;
 }
 
 #botao {
-    width: 100px;
-    height: 30px;
+    width: 270px;
+    height: 35px;
     border: none;
     background-color: #ffffffe9; /* Nova cor do botão */
     margin-left: 20px;
     color: #000000;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
 }
 
 #botao:hover {
@@ -68,7 +74,7 @@ body {
 }
 
 #msg {
-    margin-top: 20px;
+    margin-top: 30px;
     color: #CCCCCC;
-    font-size: 20px;
+    font-size: 15px;
 }
