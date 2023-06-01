@@ -2,11 +2,10 @@
     font-family: 'Bree Serif', serif;
     font-weight: 500;
     text-decoration: none;
-
 }
 
 body {
-    background-color: #ECC9EE;
+    background-color: #101010;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,75 +13,62 @@ body {
 }
 
 #card {
-    background-color: #8069c1c6;
+    background-color: #222222;
     width: 450px;
     height: 456px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius: 20px;
-    box-shadow: 0 8px 16px rgb(49, 38, 60);
-    color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.427);
+    color: #FFFFFF;
 }
 
-#card h1
-{
+#card h1 {
     font-size: 30px;
-   
+    color: #E8E8E8;
 }
-#card p
-{
+
+#card p {
     font-size: 20px;
     margin-bottom: 40px;
+    color: #CCCCCC;
 }
 
-#country 
-{
-   width: 150px;
-   height: 30px;
-   border-radius: 10px;
-   border: none;
-   background-color: #ffffff;
-   margin-left: 20px;
-   margin-bottom: 20px;
-   outline: none;
+#country {
+    width: 150px;
+    height: 30px;
+    border: none;
+    background-color: #303030;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    outline: none;
+    color: #FFFFFF;
 }
 
-#pais
-{
+#pais {
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: center;
 }
 
-#botao
-{
+#botao {
     width: 100px;
     height: 30px;
-    border-radius: 10px;
     border: none;
-    background-color: #E893CF;
+    background-color: #ffffffe9; /* Nova cor do botão */
     margin-left: 20px;
-    color:white;
+    color: #000000;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-#botao:hover
-{
-    opacity: 90%;
+#botao:hover {
+    opacity: 0.9;
 }
-#msg
-{
+
+#msg {
     margin-top: 20px;
-    color:20px;
+    color: #CCCCCC;
     font-size: 20px;
 }
-
-
-
-
-
-
-
