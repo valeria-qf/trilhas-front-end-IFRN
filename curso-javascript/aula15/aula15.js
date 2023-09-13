@@ -13,31 +13,27 @@ function imprimeNumero(num)
     }
 }
 
-function main()
+
+let num = []
+adicionarNumero(num)
+
+console.log('----------------')
+
+num.sort()
+imprimeNumero(num)
+
+console.log('----------------')
+
+number = 8
+let pos = num.indexOf(number) // Descobrir a posição de number
+
+if(pos != -1)
 {
-    let num = []
-    adicionarNumero(num)
-    
-    console.log('----------------')
+    console.log(`o valor ${number} esta na posição ${pos}.`) // Retorna o index em que o valor 7 está armazenado
+}
 
-    num.sort()
-    imprimeNumero(num)
-
-    console.log('----------------')
-
-    number = 8
-    let pos = num.indexOf(number) // Descobrir a posição de number
-
-    if(pos != -1)
-    {
-        console.log(`o valor ${number} esta na posição ${pos}.`) // Retorna o index em que o valor 7 está armazenado
-    }
-
-    else
-        console.log(`${number} nao faz parte do vetor.`)
-    }
-
-main();
+else
+    console.log(`${number} nao faz parte do vetor.`)
 
 // let num = [10, 1, 5, 2]
 // console.log(num)
