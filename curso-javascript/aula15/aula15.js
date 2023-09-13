@@ -38,3 +38,10 @@ function main()
     }
 
 main();
+
+// let num = [10, 1, 5, 2]
+// console.log(num)
+// num.push(50)
+// console.log(num)
+// num.splice(3,1) // incice 3 remove 1 elemento
+// console.log(num)
