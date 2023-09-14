@@ -7,9 +7,9 @@ function adicionarNumero(num)
 }
 function imprimeNumero(num)
 {
-    for(var index in num) // Sintaxe para array e objects
+    for(var index of num) // Sintaxe para array e objects
     {
-        console.log(num[index])
+        console.log(index)
     }
 }
 
@@ -19,7 +19,7 @@ adicionarNumero(num)
 
 console.log('----------------')
 
-num.sort()
+// num.sort()
 imprimeNumero(num)
 
 console.log('----------------')
