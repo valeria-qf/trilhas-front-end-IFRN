@@ -7,9 +7,9 @@ function adicionarNumero(num)
 }
 function imprimeNumero(num)
 {
-    for(var index of num) // Sintaxe para array e objects
+    for(content of num) // Sintaxe para array e objects
     {
-        console.log(index)
+        console.log(content)
     }
 }
 
