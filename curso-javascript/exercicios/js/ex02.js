@@ -1,3 +1,8 @@
+function concatenar(resultado, count)
+{
+    resultado.innerHTML += `👉🏼${count} `
+}
+
 function contar()
 {
     let inicio = parseInt(document.querySelector('section div #txti').value)
@@ -12,23 +17,29 @@ function contar()
 
     else
     {
-        resultado.innerHTML = 'Contando: '
+        resultado.innerHTML = 'Contando: <br>'
 
-        if(fim > inicio )
-        {   
-
-        for(let count = inicio; count <= fim; count -= pula)
-        {   
-            resultado.innerHTML += `${count} `
+        if (pula == 0)
+        {
+            alert(`Considerando o passo como '1'`)
+            pula = 1
         }
+
+        if(fim > inicio)
+        {   
+
+            for(let count = inicio; count <= fim; count += pula)
+            {   
+                concatenar(resultado, count)
+            }
         }
 
         else
         {
             for(let count = inicio; count >= fim; count -= pula)
-        {   
-            resultado.innerHTML += `${count} `
+            {   
+            concatenar(resultado, count)
+            }
         }
-    }
     }
 }
